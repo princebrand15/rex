@@ -1665,11 +1665,11 @@ logo ="""
  ║\33[0;95m[<🕌BRAND "king" It,'You Will Never SHIKHAR🕴️>]\033[0;95m║
  ╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝
 \033[1;31m==================================================
-[] AUTHOR       :      𝐌𝐑.SHIKHAR
-[] TOOLS        :     𝐅𝐈𝐋𝐄-𝐂𝐋𝐎𝐍𝐈𝐍𝐆
-[] TYPE         :      𝗣𝗔𝗜𝗗(USER ONLY)
+[] AUTHOR       :      Cute.SHIKHAR
+[] TOOLS        :     FREEFIRE-Cloning
+[] TYPE         :      Paid(USER ONLY)
 [] FACEBOOK     :      PRINCE THAQUREE
-[] VERSION      :      8.9
+[] VERSION      :      9.0
 [] MESSENGER    :      PRINCE THAQUREE ( Jung )
 =================================================="\033[1;23m"""                                
 balpakna =("""\x1b[38;5;50m══════════════════════════════════════════════════""")    
@@ -1733,7 +1733,7 @@ while attemps < 12345677901:
 
     if username == 'SHIKHAR' and password == 'THAQUREE':
         print(' \033[0;95mYou Have Successfully Logged in.')
-        os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
+        os.system('espeak -a 300 " Successfully,   Log,  In,  Dear"')
         break
     else:
         print(' Incorrect Pass Please Trying ')
@@ -2079,7 +2079,7 @@ def setting():
 def passwrd():
     os.system('clear')
     print(logo)
-    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐘𝐎𝐔𝐑 𝐓𝐎𝐎𝐋𝐒 𝙰𝙲𝚃𝙸𝚅𝙴 \x1b[38;5;50m[𝙿𝚁𝙴𝙼𝙸𝚄𝙼] ")
+    print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐘𝐎𝐔𝐑 𝐓𝐎𝐎𝐋𝐒 𝙰𝙲𝚃𝙸𝚅𝙴 \x1b[38;5;50m[Activated] ")
     print(f"\033[1;91m[\033[1;91m√\033[1;91m] \033[1;91m𝐔𝐒𝐄𝐑𝐒 𝐍𝐀𝐌𝐄\033[1;91m :\033[1;96m "+𝚞𝚗𝚊𝚖𝚎)
     print("\033[1;91m[\033[1;92m√\033[1;91m] \033[1;95m𝗧𝗢𝗗𝗔𝗬'𝗦 𝙳𝙰𝚃𝙴 :\x1b[38;5;50m "+𝚍𝚊𝚝𝚎)
     print('\033[1;91m[\033[1;92m√\033[1;91m] \033[1;93m𝚈𝙾𝚄𝚁 TOTAL 𝙸𝙳𝚣 \033[0;97m:\x1b[38;5;50m ',str(len(id)))
@@ -2221,7 +2221,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;96m[SHIKHAR-Ok🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}\n\033[0;91m[🌼]= COOKIES • \033[0;91m{kuki} ')
+                print(f'\r\033[0;96m[SHIKHAR-Ok🌸] ✅Uid┏━➤ {idf} 🔑Pass┏━➤ {pw}')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
